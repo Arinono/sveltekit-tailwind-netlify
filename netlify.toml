@@ -1,0 +1,8 @@
+[build]
+  base = "app/"
+  command = "npx pnpm i --store=node_modules/.pnpm-store && npx pnpm build"
+  publish = "build/"
+  functions = "functions/"
+
+[build.environment]
+  NPM_FLAGS = "--prefix=/dev/null"
