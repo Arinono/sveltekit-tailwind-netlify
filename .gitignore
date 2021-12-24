@@ -6,3 +6,4 @@ node_modules
 .vscode
 .netlify
 .pnpm-debug.log
+*.local
