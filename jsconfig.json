@@ -5,17 +5,17 @@
 			"$lib": ["src/lib"],
 			"$lib/*": ["src/lib/*"],
 			"@utils": ["src/lib/utils"],
-			"@utils/*": ["src/lib/utils*"],
+			"@utils/*": ["src/lib/utils/*"],
 			"@stores": ["src/lib/stores"],
 			"@stores/*": ["src/lib/stores*"],
-			"@atom": ["src/lib/atom"],
-			"@atom/*": ["src/lib/atom*"],
+			"@atoms": ["src/lib/atoms"],
+			"@atoms/*": ["src/lib/atoms/*"],
 			"@molecules": ["src/lib/molecules"],
-			"@molecules/*": ["src/lib/molecules*"],
+			"@molecules/*": ["src/lib/molecules/*"],
 			"@organisms": ["src/lib/organisms"],
-			"@organisms/*": ["src/lib/organisms*"],
+			"@organisms/*": ["src/lib/organisms/*"],
 			"@templates": ["src/lib/templates"],
-			"@templates/*": ["src/lib/templates*"]
+			"@templates/*": ["src/lib/templates/*"]
 		}
 	},
 	"include": ["src/**/*.d.ts", "src/**/*.js", "src/**/*.svelte"]
